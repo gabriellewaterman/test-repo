@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kahana Catering - Allergen Friendly Offerings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333333;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            font-size: 2em;
+        }
+
+        h2 {
+            color: #27ae60;
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .highlight {
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+
+        .note {
+            font-style: italic;
+            color: #2980b9;
+        }
+
+        .download-link {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u>Khaana Catering</u> – <span class="highlight"><b>Allergen-Friendly Options</b></span></h1>
+
+    <p class="note">We specialize in <i>safe, delicious, and inclusive meals</i> for all dietary needs.</p>
+
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Catering Tray" width="500">
+    </div>
+
+    <h2>Top Allergen-Free Offerings</h2>
+
+    <ol>
+        <li>Gluten-Free Pasta Primavera</li>
+        <li>Dairy-Free Creamy Tomato Soup</li>
+        <li>Nut-Free Thai-Inspired Salad</li>
+        <li>Vegan Chickpea Tikka Masala</li>
+    </ol>
+
+    <h2>What Makes Us Different</h2>
+
+    <ul>
+        <li><span style="color:#8e44ad; font-size: 1.1em;">Certified Allergen-Free Kitchens</span></li>
+        <li>Separate prep areas for gluten-free and nut-free meals</li>
+        <li>Staff trained in allergen safety protocols</li>
+    </ul>
+
+    <p>Learn more about <a href="https://celiac.org/" target="_blank">Celiac_
