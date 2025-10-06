@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Group 5's Official Website!</title>
+  <style>
+    body {
+      background-color: beige;
+      margin: 0;
+      padding: 0;
+    }
+
+ 
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #f1f1f1;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+    }
+
+    #main {
+      transition: margin-left 0.5s;
+      padding: 20px;
+    }
+
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #111;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .openbtn:hover {
+      background-color: #444;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar">
+    <ul></ul>
+    <li><a href="https://sing1038.github.io/ManagementTeam/" target="_blank">Reva's Site: Management Team</a></li>
+    <li><a href="product-offerings.html" target="_blank">Gabbie's Site: Product Offerings</a></li>
+    <li><a href="https://leffela14.github.io/MGMT-382-Project-1/" target="_blank">Ava's Site: History</a></li>
+    <li><a href="https://kaspangl.github.io/kaspangl.github.io1/" target="_blank">Kate's Site: Testimonials</a></li>
+    <li><a href="https://vchukwuocha.github.io/MGMT-382-Project-1/" target="_blank">Victor's Site: Services</a></li>
+    </ul>
+  </div>
+
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>
+
+    <h1>Khaana Catering!</h1>
+    <h1>Group Members: Kate Spangler, Victor Chukwuocha, Reva Singh, Ava Leffel, Gabbie Waterman</h1>
+
+    <p>
+      Our passion is bringing people together through enriching, natural recipes. <br><br>
+      Together means everyone, and to reach our goal, we are experts in allergen-friendly 
+      and dietary restriction catering. <br><br>
+      We guarantee we will provide the best quality service 
+      so you can focus on what really matters at your events - the people.
+    </p>
+
+    <p>Thank you for visiting.</p>
+    <p id="lastModified"></p>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+
+    document.getElementById("lastModified").innerHTML =
+      "Date Last Modified: " + document.lastModified;
+  </script>
+
+</body>
+</html>
